@@ -6,10 +6,10 @@ Sprite:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Special_Draw4_Yellow
+  m_Name: Special_DrawBlue
   m_Rect:
     serializedVersion: 2
-    x: 170
+    x: 238
     y: 101
     width: 32
     height: 48
@@ -22,7 +22,7 @@ Sprite:
   m_AtlasName: 
   m_PackingTag: 
   m_RenderDataKey:
-    6e7c7a9d062b3e14394779079e346fb5: -796359962
+    6e7c7a9d062b3e14394779079e346fb5: 1017142627
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
@@ -107,14 +107,14 @@ Sprite:
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 170
+      x: 238
       y: 101
       width: 32
       height: 48
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 186, z: 100, w: 125}
+    uvTransform: {x: 100, y: 254, z: 100, w: 125}
     downscaleMultiplier: 1
   m_AtlasRD:
     serializedVersion: 3
@@ -198,14 +198,14 @@ Sprite:
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 170
+      x: 238
       y: 101
       width: 32
       height: 48
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 186, z: 100, w: 125}
+    uvTransform: {x: 100, y: 254, z: 100, w: 125}
     downscaleMultiplier: 1
   m_PhysicsShape:
   - - {x: -0.16, y: 0.24}
@@ -213,4 +213,4 @@ Sprite:
     - {x: 0.16, y: -0.24}
     - {x: 0.16, y: 0.24}
   m_Bones: []
-  m_SpriteID: 463f872e96d161e419c9bedae450e3aa
+  m_SpriteID: 96ab7ec60f2193a458282ba87ff71e89

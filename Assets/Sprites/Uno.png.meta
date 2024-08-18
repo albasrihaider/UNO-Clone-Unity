@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Uno
+      name: Special_Uno
       rect:
         serializedVersion: 2
         x: 0
@@ -1230,7 +1230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Draw4
+      name: Special_Draw
       rect:
         serializedVersion: 2
         x: 204
@@ -1251,7 +1251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Change_Red
+      name: Special_ChangeRed
       rect:
         serializedVersion: 2
         x: 0
@@ -1272,7 +1272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Change_Yellow
+      name: Special_ChangeYellow
       rect:
         serializedVersion: 2
         x: 34
@@ -1293,7 +1293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Change_Green
+      name: Special_ChangeGreen
       rect:
         serializedVersion: 2
         x: 68
@@ -1314,7 +1314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Change_Blue
+      name: Special_ChangeBlue
       rect:
         serializedVersion: 2
         x: 102
@@ -1335,7 +1335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Draw4_Red
+      name: Special_DrawRed
       rect:
         serializedVersion: 2
         x: 136
@@ -1356,7 +1356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Draw4_Yellow
+      name: Special_DrawYellow
       rect:
         serializedVersion: 2
         x: 170
@@ -1377,7 +1377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Draw4_Green
+      name: Special_DrawGreen
       rect:
         serializedVersion: 2
         x: 204
@@ -1398,7 +1398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Special_Draw4_Blue
+      name: Special_DrawBlue
       rect:
         serializedVersion: 2
         x: 238
@@ -1469,16 +1469,16 @@ TextureImporter:
       Red_Flip: 627824831
       Red_Skip: -1465158839
       Special_Change: 1354127840
-      Special_Change_Blue: -1556347355
-      Special_Change_Green: 86600803
-      Special_Change_Red: -949280131
-      Special_Change_Yellow: 991265069
-      Special_Draw4: -1322048820
-      Special_Draw4_Blue: 1017142627
-      Special_Draw4_Green: 1625769040
-      Special_Draw4_Red: 301803560
-      Special_Draw4_Yellow: -796359962
-      Uno: 514441132
+      Special_ChangeBlue: -1556347355
+      Special_ChangeGreen: 86600803
+      Special_ChangeRed: -949280131
+      Special_ChangeYellow: 991265069
+      Special_Draw: -1322048820
+      Special_DrawBlue: 1017142627
+      Special_DrawGreen: 1625769040
+      Special_DrawRed: 301803560
+      Special_DrawYellow: -796359962
+      Special_Uno: 514441132
       Yellow_0: -193804445
       Yellow_1: -1830501634
       Yellow_2: -1016274772

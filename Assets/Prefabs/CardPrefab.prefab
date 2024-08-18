@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2569084450219823891}
   - component: {fileID: 7898170464936557247}
   - component: {fileID: 1224611746296030562}
-  - component: {fileID: 3393045177353158723}
+  - component: {fileID: 6110239810639120734}
   m_Layer: 0
   m_Name: CardPrefab
   m_TagString: Untagged
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e881bf99ba5c246439cc5385fd0e0bbd, type: 2}
+  m_Sprite: {fileID: 21300000, guid: 38b2eea217f12d648adae72a425575ab, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.48}
   m_EdgeRadius: 0
---- !u!114 &3393045177353158723
+--- !u!114 &6110239810639120734
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7379ee4e65f6f844b9409c85265e3ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardColor: 
+  cardValue: 
+  cardRenderer: {fileID: 7898170464936557247}
