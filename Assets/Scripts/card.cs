@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class card : MonoBehaviour
+public class Card : MonoBehaviour
 {
 	public string cardColor;
 	public string cardValue;
@@ -21,11 +21,15 @@ public class card : MonoBehaviour
 	private void UpdateCardAppearance()
 	{
 		// Construct the sprite path based on the card color and value
-		string spritePath = $"UNO Cards/{cardColor}/{cardColor}_{cardValue}";
-
+		string spritePath = $"{cardColor}/{cardColor}_{cardValue}";
+		
 		// Load the sprite from the Resources folder (assuming your sprites are there)
 		Sprite cardSprite = Resources.Load<Sprite>(spritePath);
-
+		Console.WriteLine(
+			"Card Color :" + cardColor +"\n"+
+			"Card Value :" + cardValue + "\n" +
+			"Sprite Path :" + spritePath + "\n" 
+			);
 		// Check if the sprite was found
 		if (cardSprite != null)
 		{
