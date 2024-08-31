@@ -29,6 +29,8 @@ public class DeckManager : MonoBehaviour
                 {
                     GameObject newCard = Instantiate(cardPrefab);
                     newCard.GetComponent<Card>().Initialize(color, value);
+                    newCard.transform.SetParent(transform);
+                    newCard.SetActive(false);
                     deck.Add(newCard);
                 }
             }
@@ -39,12 +41,34 @@ public class DeckManager : MonoBehaviour
         {
             GameObject wildCard = Instantiate(cardPrefab);
             wildCard.GetComponent<Card>().Initialize("Special", "Change");
+            wildCard.transform.SetParent(transform);
+            wildCard.SetActive(false);
             deck.Add(wildCard);
 
             GameObject wildDrawFourCard = Instantiate(cardPrefab);
             wildDrawFourCard.GetComponent<Card>().Initialize("Special", "Draw");
+            wildDrawFourCard.transform.SetParent(transform);
+            wildDrawFourCard.SetActive(false);
             deck.Add(wildDrawFourCard);
         }
+    }
+
+    public GameObject DrawCard()
+    {
+        if (deck.Count == 0)
+        {
+            Debug.LogError("No more cards in the deck!");
+            return null;
+        }
+
+        // Get the top card from the deck
+        GameObject drawnCard = deck[0];
+        deck.RemoveAt(0);
+
+        // Optionally: Set the parent of the drawn card to a temporary holding position
+        drawnCard.transform.SetParent(null);  // Remove from deck manager
+
+        return drawnCard;
     }
 
     void ShuffleDeck()
@@ -67,9 +91,12 @@ public class DeckManager : MonoBehaviour
                 GameObject cardToDeal = deck[0];
                 deck.RemoveAt(0);
                 cardToDeal.transform.SetParent(hand);
-                cardToDeal.transform.position = hand.position;  // Adjust positioning as needed
+                cardToDeal.SetActive(true);
+                // Adjust position with spacing
+                float spacing = 0.5f; // Adjust as needed
+                float startX = -((7 - 1) * spacing) / 2; // Center cards horizontally
+                cardToDeal.transform.localPosition = new Vector3(startX + i * spacing, 0, 0);
             }
         }
     }
 }
-
