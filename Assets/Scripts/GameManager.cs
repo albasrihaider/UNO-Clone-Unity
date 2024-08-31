@@ -62,10 +62,10 @@ public class GameManager : MonoBehaviour
             case "Skip":
                 NextTurn(); // Skip the next player's turn
                 break;
-            case "Reverse":
+            case "Flip":
                 ReverseTurnOrder(); // Reverse the direction of play
                 break;
-            case "DrawTwo":
+            case "Draw":
                 DrawCards(2); // For Draw Two cards
                 break;
             case "Change":
